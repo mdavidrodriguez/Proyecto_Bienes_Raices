@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienes Raices</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
     <header class="site-header inicio">
         <div class="contenedor contenido-header">
-             <div class="barra">
+            <div class="barra">
                 <a href="/">
-                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices" />
                 </a>
-                <nav class="navegacion">
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+
+                <nav id="navegacion" class="navegacion">
                     <a target="_blank" href="nosotros.html">Nosotros</a>
                     <a href="anuncios.html">Anuncios</a>
                     <a href="blog.html">Blog</a>
@@ -23,23 +32,24 @@
                 </nav>
             </div>
             <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-        </div> <!--contenedor-->
+        </div>
+        <!--contenedor-->
     </header>
 
     <section class="contenedor seccion">
-        <h2 class="fw-300 centrar-texto ">Mas sobre Nosotros</h2>
+        <h2 class="fw-300 centrar-texto">Mas sobre Nosotros</h2>
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="img/icono1.svg" alt="Icono seguridad">
-                <h3 >Seguridad</h3>
+                <img src="img/icono1.svg" alt="Icono seguridad" />
+                <h3>Seguridad</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-                    nesciunt quo animi explicabo quod quisquam sed dicta dolorem, repudiandae
-                    est.
+                    nesciunt quo animi explicabo quod quisquam sed dicta dolorem,
+                    repudiandae est.
                 </p>
             </div>
             <div class="icono">
-                <img src="img/icono2.svg" alt="Icono Precio">
+                <img src="img/icono2.svg" alt="Icono Precio" />
                 <h3>El Mejor Precio</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae
@@ -48,12 +58,12 @@
                 </p>
             </div>
             <div class="icono">
-                <img src="img/icono3.svg" alt="Icono a tiempo">
+                <img src="img/icono3.svg" alt="Icono a tiempo" />
                 <h3>A tiempo</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sit
-                    laudantium magni illo magnam ipsa ullam dolores temporibus eligendi
-                    quibusdam?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Perferendis sit laudantium magni illo magnam ipsa ullam dolores
+                    temporibus eligendi quibusdam?
                 </p>
             </div>
         </div>
@@ -63,31 +73,40 @@
         <h2 class="fw-300 centrar-texto">Casas y Depas en Venta</h2>
 
         <div class="contenedor-anuncios">
-            <div class="anuncio" >
-                <img src="img/anuncio1.jpg" alt="Anuncio Casa en el Lago">
+            <div class="anuncio">
+                <img src="img/anuncio1.jpg" alt="Anuncio Casa en el Lago" />
                 <div class="contenido-anuncio">
                     <h3>Casa de Lujo en el Lago</h3>
-                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+                    <p>
+                        Casa en el lago con excelente vista, acabados de lujo a un
+                        excelente precio
+                    </p>
                     <p class="precio">$3,000,000</p>
-                    <a href="#" class="boton boton-amarillo d-block">Ver propiedad</a>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
             <div class="anuncio">
-                <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo">
+                <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo" />
                 <div class="contenido-anuncio">
                     <h3>Casa Terminados de Lujo</h3>
-                    <p>Casa con diseño moderno, asi como tecnologia inteligente y amoblada</p>
+                    <p>
+                        Casa con diseño moderno, asi como tecnologia inteligente y
+                        amoblada
+                    </p>
                     <p class="precio">$2,000,000</p>
-                    <a href="#" class="boton boton-amarillo d-block">Ver propiedad</a>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
             <div class="anuncio">
-                <img src="img/anuncio3.jpg" alt="Casa Bella">
+                <img src="img/anuncio3.jpg" alt="Casa Bella" />
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
-                    <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
+                    <p>
+                        Casa con alberca y acabados de lujo en la ciudad, excelente
+                        oportunidad
+                    </p>
                     <p class="precio">$3,000,000</p>
-                    <a href="#" class="boton boton-amarillo d-block">Ver propiedad</a>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver propiedad</a>
                 </div>
             </div>
         </div>
@@ -96,10 +115,13 @@
         </div>
     </main>
 
-    <section class="imagen-contacto ">
+    <section class="imagen-contacto">
         <div class="contenedor contenido-contacto">
             <h2>Encuentra la casa de tus sueños</h2>
-            <p>Llena el formulario de contacto y un asesor se pondra en contacto contigo a la brevedad</p>
+            <p>
+                Llena el formulario de contacto y un asesor se pondra en contacto
+                contigo a la brevedad
+            </p>
             <a href="contacto.html" class="boton boton-amarillo">Contactanos</a>
         </div>
     </section>
@@ -109,28 +131,31 @@
             <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
             <article class="entrada-blog">
                 <div class="imagen">
-                    <img src="img/blog1.jpg" alt="Entrada de Blog">
+                    <img src="img/blog1.jpg" alt="Entrada de Blog" />
                 </div>
                 <div class="texto-entrada">
-                    <a href="#">
+                    <a href="entrada.html">
                         <h4>Terraza en el techo de tu casa</h4>
                     </a>
                     <p>Escrito el: <span> 20/10/2019</span> por:<span> Admin</span></p>
-                    <p>Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
+                    <p>
+                        Consejos para construir una terraza en el techo de tu casa con los
+                        mejores materiales y ahorrando dinero
                     </p>
                 </div>
             </article>
             <article class="entrada-blog">
                 <div class="imagen">
-                    <img src="img/blog2.jpg" alt="Entrada de blod 2">
+                    <img src="img/blog2.jpg" alt="Entrada de blod 2" />
                 </div>
                 <div class="texto-entrada">
-                    <a href="#">
+                    <a href="entrada.html">
                         <h4>Guia para la decoración de tu hogar</h4>
                     </a>
                     <p>Escrito el: <span>20/10/2019</span> por:<span> Admin</span></p>
-                    <p>Maximixa el espacio en tu hogar con esta guia, aprende a combinar muebles y colores
-                        para darle vida a tu espacio
+                    <p>
+                        Maximixa el espacio en tu hogar con esta guia, aprende a combinar
+                        muebles y colores para darle vida a tu espacio
                     </p>
                 </div>
             </article>
@@ -140,8 +165,8 @@
             <h3 class="centrar-texto fw-300">Testimoniales</h3>
             <div class="testimonial">
                 <blockquote>
-                    El personal se comporto de una excelente forma, muy buena atencion, la casa que me ofrecieron
-                    cumple con todas mis expectativas.
+                    El personal se comporto de una excelente forma, muy buena atencion,
+                    la casa que me ofrecieron cumple con todas mis expectativas.
                 </blockquote>
                 <p>-Mateo Rodriguez</p>
             </div>
